@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'poppins', arial, sans-serif;
+}
+
+/* Header */
+.header{
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 2px 7px rgba(0,9,12,.3);
+}
+
+/* Navigation top */
+.top-navi{
+    max-width: 1090px;
+    margin: auto;
+    height: 55px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 10px;
+}
+
+.top-left,
+.top-right{
+    display: flex;
+    align-items: center;
+    gap: 29px;
+}
+
+.top-navi a{
+    text-decoration: none;
+    color: #33475b;
+}
+
+/* Main Navigation */
+.main-nav{
+    max-width: 1110px;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.logo{
+    font-size: 30px;
+    color: #263746;
+}
+
+.logo span{
+    color: #ff5c35;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #33475b;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* Demo Button */
+.button{
+    margin-left: auto;
+    padding: 15px 25px;
+    background-color: #ff5c35;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.button:hover{
+    background-color: #e64b28;
+}
+
+
+
+/* HERO SECTION */
+
+.hero {
+    width: 100%;
+    min-height: 600px;
+    background-color: #fcf5e9;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 70px max(calc((100% - 1200px) / 2), 40px);
+    gap: 40px;
+
+    overflow: hidden;
+}
+
+/* BAGIAN KIRI */
+
+.hero-left {
+    width: 48%;
+    color: #33475b;
+}
+
+.hero-left h1 {
+    font-family: Georgia, serif;
+    font-size: 58px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+.description {
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.hero-button {
+    display: inline-block;
+    padding: 20px 40px;
+
+    background-color: #ff5c35;
+    color: white;
+
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 4px;
+
+    transition: .3s;
+}
+
+.hero-button:hover {
+    background-color: #e64b28;
+    transform: translateY(-3px);
+}
+
+.caption {
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+/* BAGIAN KANAN */
+
+.hero-right {
+    width: 52%;
+    position: relative;
+}
+
+.hero-right img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 2;
+}
+
+/* LINGKARAN DEKORASI */
+
+.circle {
+    width: 300px;
+    height: 300px;
+
+    background-color: #16b9b9;
+    border-radius: 50%;
+
+    position: absolute;
+    top: -80px;
+    right: 50px;
+
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive */
+/* Tablet */
+@media screen and (max-width: 900px) {
+
+    .top-navi {
+        padding: 0 20px;
+    }
+
+    .top-left,
+    .top-right {
+        gap: 12px;
+    }
+
+    .main-nav {
+        padding: 0 20px;
+        gap: 25px;
+    }
+
+    .logo {
+        font-size: 25px;
+    }
+
+    .nav-links {
+        gap: 15px;
+    }
+
+    .nav-links a {
+        font-size: 13px;
+    }
+
+    .button {
+        padding: 10px 12px;
+        font-size: 12px;
+    }
+}
+
+/* Hp */
