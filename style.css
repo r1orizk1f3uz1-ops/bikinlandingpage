@@ -101,12 +101,6 @@ body{
     padding: 70px max(calc((100% - 1200px) / 2), 40px);
     gap: 40px;
 
-    overflow: hidden;
-}
-
-/* DECORATION */
-
-.hero {
     position: relative;
     overflow: hidden;
 }
@@ -121,7 +115,7 @@ body{
     color: #ff5c35;
     font-size: 55px;
     top: 100px;
-    left: 56%;
+    left: 50%;
     z-index: 3;
 }
 
@@ -129,7 +123,7 @@ body{
     color: #ff5c35;
     font-size: 35px;
     top: 75px;
-    left: 54%;
+    left: 47%;
     z-index: 3;
 }
 
@@ -142,7 +136,7 @@ body{
 
     position: absolute;
     top: 240px;
-    right: 32%;
+    right: 43%;
 
     z-index: 1;
 }
