@@ -159,7 +159,8 @@ body{
 
 /* BAGIAN KIRI */
 .hero-left {
-    width: 48%;
+    flex: 1;
+    min-width: 0;
     color: #33475b;
 }
 
@@ -201,7 +202,8 @@ body{
 /* BAGIAN KANAN */
 
 .hero-right {
-    width: 52%;
+    flex: 1;
+    min-width: 0;
     position: relative;
     transform: translateX(20px);
     z-index: 2;
@@ -356,5 +358,26 @@ body{
 
     .hero-right img {
         width: 100%;
+    }
+
+    .circle {
+        width: 150px;
+        height: 150px;
+        top: -40px;
+        right: 10px;
+    }
+
+    .decor-blue {
+        width: 100px;
+        height: 100px;
+        top: 100px;
+        right: 5%;
+    }
+
+    .decor-orange {
+        width: 150px;
+        height: 150px;
+        bottom: -70px;
+        right: -30px;
     }
 }
