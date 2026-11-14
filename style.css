@@ -360,24 +360,39 @@ body{
         width: 100%;
     }
 
-    .circle {
-        width: 150px;
-        height: 150px;
-        top: -40px;
-        right: 10px;
-    }
-
     .decor-blue {
-        width: 100px;
-        height: 100px;
-        top: 100px;
-        right: 5%;
-    }
+    width: 90px;
+    height: 90px;
+    top: 150px;
+    right: 5%;
+    z-index: 0;
+}
 
-    .decor-orange {
-        width: 150px;
-        height: 150px;
-        bottom: -70px;
-        right: -30px;
-    }
+.decor-star {
+    font-size: 30px;
+    top: 100px;
+    left: auto;
+    right: 15%;
+}
+
+.decor-star-two {
+    font-size: 22px;
+    top: 80px;
+    left: auto;
+    right: 25%;
+}
+
+.decor-orange {
+    width: 120px;
+    height: 120px;
+    bottom: -60px;
+    right: -40px;
+}
+
+.circle {
+    width: 160px;
+    height: 160px;
+    top: -40px;
+    right: 10px;
+}
 }
